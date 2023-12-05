@@ -1,0 +1,11 @@
+body {
+  background-color: cornflowerblue; }
+
+@keyframes sexy {
+  from {
+    color: red; }
+  to {
+    color: blue; } }
+
+body {
+  position: sticky; }

@@ -1,0 +1,1 @@
+import{handleMessageNotif}from"./chat.js";var socket=io("/");function sendMessage(e){console.log("send"),socket.emit("newMessage",{message:e}),console.log("You: ".concat(e))}function setNickname(e){socket.emit("setNickname",{nickname:nickname})}socket.on("messageNotif",handleMessageNotif);
